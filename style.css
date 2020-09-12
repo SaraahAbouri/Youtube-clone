@@ -396,7 +396,8 @@ body{
 .small-vids{
     height: 100%;
     width: 400px;
-    background-color: white;
+
+
     
   
 
@@ -444,6 +445,11 @@ body{
     margin-top: 13px;
     margin-bottom: 6px;
 }
+.Main-vid{
+
+
+}
+
 
 .Main-vid .stuff{
     display: flex;
@@ -535,7 +541,7 @@ body{
     justify-content: flex-end;
     padding-top: 10px;
     width: 22%;
-    padding-right: 12px;
+    padding-right: 12px; 
 }
 .subscribe .material-icons{
     padding-left: 10px;
@@ -582,7 +588,10 @@ body{
     font-size: 1.2em;
     color: grey;
 }
-
+.everything{
+    position: absolute;
+    padding-top: 600px;
+}
 .addComment{
     display: flex;
     flex-direction: row;
@@ -691,6 +700,19 @@ body{
     justify-content: space-between;
 }
 
+.video-page{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+.everything{
+    width: 700px;
+}
+
 /* media-queries */
 /* video media quries */
 @media screen and (max-width: 640px){
@@ -708,6 +730,16 @@ body{
     .video-page{
         display: flex;
         flex-direction: column;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .everything{
+        position: relative;
+        padding-top: 0;
     }
 }
 
@@ -799,6 +831,8 @@ body{
         height:100%;
         width: 100%;
     }
+
+    
     
 }
 
